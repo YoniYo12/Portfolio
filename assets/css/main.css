@@ -1854,7 +1854,7 @@ ul.icons a:hover {
 	form select,
 	form textarea {
 		position: relative;
-		-webkit-appearance: none;
+		appearance: none;
 		display: block;
 		border: 0;
 		outline: 0;
@@ -2140,6 +2140,9 @@ ul.icons a:hover {
 		#nav ul li {
 			padding-left: 0;
 		}
+		#nav ul li :hover{
+			background-color: #36367d;
+		}
 
 			#nav ul li a {
 				display: block;
@@ -2224,8 +2227,8 @@ ul.icons a:hover {
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
 			background-image: url("images/overlay.png");
-			background: #222629 url("images/overlay.png");
-			
+			/* background: #222629 url("images/overlay.png"); */
+			height: 100vh;
 		}
 		
 
@@ -2260,9 +2263,22 @@ ul.icons a:hover {
 
 			#main > section.one {
 				
-				max-height: 120vh;
+				background-color: #222629;
 					
 			}
+			#main > section.two{
+				background-color: #063b6a;
+			}
+			#main > section.two .mern-icons{
+				Display: flex;
+				gap: 20px;
+				margin-top: 20px;
+				margin-left: 35px;
+			}
+			#main > section.three{
+				background-color: #000000;
+			}
+
 			@keyframes fadeIn {
 				from { opacity: 0; }
 				to { opacity: 1; }
@@ -2270,7 +2286,7 @@ ul.icons a:hover {
 
 			.image {
 				/* background-color: #0b1435; */
-				animation: fadeIn 3s ease-in-out forwards ;
+				animation: fadeIn 3s ease-in-out forwards;
 			}
 			
 			@keyframes bounce {
@@ -2284,53 +2300,28 @@ ul.icons a:hover {
 				  transform: translateY(-10px);
 				}
 			  }
-			  
-			  .row .image img {
-				animation: bounce 2s ease-in-out 2s;
+			.row .image img {
+				animation: bounce 3ss ease-in-out 4s;
 			  } 
 			#main > section.three header.hs{ 
 				background-color: rgb(147, 141, 141);
-				color: black;
+				color: rgb(255, 255, 255);
 			}
 			#main > section.four {
-				/* background-color: #050518;; */
+				background-color: #222629;
 				box-sizing: border-box;
+				font-size: 1em;
+				color: #ffffff;
 				
-			}
-			#main > section.four textarea{
-				width: 60%;
-				max-height: 30px;
-				margin-bottom: 20px;
-				float: left;
-			}
-			#main > section.four .send_message {
-				display: inline-block;
-				padding: 20px 50px;
-				background-color: #14283d;
-				color: white;
-				text-decoration: none;
-				border-radius: 5px;
-				font-size: 16px;
-				cursor: pointer;
-				text-align: center;
-				margin-left: 20px; 
-				vertical-align: top; 
-			  }
-			  #main > section.four {
-				padding: 40px 20px;
-				text-align: center;
-			  }
+				
+			} 
 			  
 			  #main > section.four h2 {
 				margin-bottom: 20px;
-				font-size: 28px;
+				font-size: 3em;
+				color: rgb(255, 255, 255)
 			  }
 			  
-			  #main > section.four p {
-				margin-bottom: 30px;
-				font-size: 18px;
-				color: #555;
-			  }
 .contact-links {
     display: flex;
     justify-content: center;
