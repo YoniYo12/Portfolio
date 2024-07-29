@@ -2228,7 +2228,7 @@ ul.icons a:hover {
 			text-align: center;
 			background-image: url("images/overlay.png");
 			/* background: #222629 url("images/overlay.png"); */
-			height: 100vh;
+
 		}
 		
 
@@ -2263,11 +2263,13 @@ ul.icons a:hover {
 
 			#main > section.one {
 				
-				background-color: #222629;
+				background-image: url("../../images/bi1.avif");
+				height: 100vh;
 					
 			}
 			#main > section.two{
-				background-color: #063b6a;
+				background-image: url("../../images/b5.jpg");
+				color: white;
 			}
 			#main > section.two .mern-icons{
 				Display: flex;
@@ -2279,45 +2281,56 @@ ul.icons a:hover {
 				background-color: #000000;
 			}
 
+		
 			@keyframes fadeIn {
 				from { opacity: 0; }
 				to { opacity: 1; }
 			}
 
 			.image {
-				/* background-color: #0b1435; */
-				animation: fadeIn 3s ease-in-out forwards;
-			}
 			
+				animation: fadeIn 5s ease-in-out forwards;
+			}
+
+	
 			@keyframes bounce {
 				0%, 20%, 50%, 80%, 100% {
-				  transform: translateY(0);
+					transform: translateY(0);
 				}
 				40% {
-				  transform: translateY(-20px);
+					transform: translateY(-20px);
 				}
 				60% {
-				  transform: translateY(-10px);
+					transform: translateY(-10px);
 				}
-			  }
+			}
+
+
 			.row .image img {
-				animation: bounce 3ss ease-in-out 4s;
-			  } 
+				animation: bounce 3s ease-in-out infinite;
+
+			}
+
+			#main > section.three {
+				background-color: #353d43;
+				color: white;
+			} 
 			#main > section.three header.hs{ 
-				background-color: rgb(147, 141, 141);
-				color: rgb(255, 255, 255);
+				background-color: rgb(8, 8, 8);
 			}
 			#main > section.four {
-				background-color: #222629;
+
 				box-sizing: border-box;
 				font-size: 1em;
-				color: #ffffff;
+				color: #0c0c0c;
+				background-color: #d2f1d778;
 			} 
 			  
 			  #main > section.four h2 {
 				margin-bottom: 20px;
 				font-size: 3em;
-				color: rgb(255, 255, 255)
+				color: rgb(7, 7, 7);
+				
 			  }
 			  
 .contact-links {
