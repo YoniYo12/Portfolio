@@ -2270,6 +2270,7 @@ ul.icons a:hover {
 			#main > section.two{
 				background-image: url("../../images/b5.jpg");
 				color: white;
+				height: 100vh;
 			}
 			#main > section.two .mern-icons{
 				Display: flex;
@@ -2277,9 +2278,7 @@ ul.icons a:hover {
 				margin-top: 20px;
 				margin-left: 35px;
 			}
-			#main > section.three{
-				background-color: #000000;
-			}
+
 
 		
 			@keyframes fadeIn {
@@ -2314,6 +2313,7 @@ ul.icons a:hover {
 			#main > section.three {
 				background-color: #353d43;
 				color: white;
+				height: 100vh;
 			} 
 			#main > section.three header.hs{ 
 				background-color: rgb(8, 8, 8);
@@ -2324,6 +2324,7 @@ ul.icons a:hover {
 				font-size: 1em;
 				color: #0c0c0c;
 				background-color: #d2f1d778;
+				height: 90vh;
 			} 
 			  
 			  #main > section.four h2 {
@@ -2740,7 +2741,7 @@ ul.icons a:hover {
 
 	}
 	#footer {
-		background-color: #353d43;
+		background-color: #afb6bb;
 		color: black;
-		max-height: 30px;
+		padding: 10px;
 	}
